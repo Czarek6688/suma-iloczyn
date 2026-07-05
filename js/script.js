@@ -1,55 +1,14 @@
-const dodajLiczby = function (
-  liczba1,
-  liczba2,
-  liczba3,
-  liczba4,
-  liczba5,
-  liczba6,
-) {
-  let wynik = liczba1 + liczba2 + liczba3 + liczba4 + liczba5 + liczba6;
-  console.log(wynik);
-};
+function oblicz(tablica) {
+  let suma = 0;
+  let iloczyn = 1;
 
-let liczbaPierwsza = 1;
-let liczbaDruga = 2;
-let liczbaTrzecia = 3;
-let liczbaCzwarta = 4;
-let liczbaPiata = 5;
-let liczbaSzosta = 6;
+  suma = 1 + 2 + 3 + 4 + 5 + 6;
 
-dodajLiczby(
-  liczbaPierwsza,
-  liczbaDruga,
-  liczbaTrzecia,
-  liczbaCzwarta,
-  liczbaPiata,
-  liczbaSzosta,
-);
+  iloczyn = 1 * 2 * 3 * 4 * 5 * 6;
 
-const mnozenieLiczb = function (
-  liczba1,
-  liczba2,
-  liczba3,
-  liczba4,
-  liczba5,
-  liczba6,
-) {
-  let wynik = liczba1 * liczba2 * liczba3 * liczba4 * liczba5 * liczba6;
-  console.log(wynik);
-};
+  console.log("Suma: " + suma);
+  console.log("Iloczyn: " + iloczyn);
+}
 
-let liczba1 = 1;
-let liczba2 = 2;
-let liczba3 = 3;
-let liczba4 = 4;
-let liczba5 = 5;
-let liczba6 = 6;
-
-mnozenieLiczb(
-  liczbaPierwsza,
-  liczbaDruga,
-  liczbaTrzecia,
-  liczbaCzwarta,
-  liczbaPiata,
-  liczbaSzosta,
-);
+let liczby = [1, 2, 3, 4, 5, 6];
+oblicz(liczby);
